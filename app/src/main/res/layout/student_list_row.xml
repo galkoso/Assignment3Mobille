@@ -12,7 +12,7 @@
         android:layout_height="60dp"
         android:src="@android:drawable/ic_menu_gallery"
         android:scaleType="centerCrop"
-        android:contentDescription="@string/desc" />
+        android:contentDescription="@string/desc_student_image" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -25,7 +25,7 @@
             android:id="@+id/student_row_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Student_Name"
+            android:text="@string/student_name"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -33,7 +33,7 @@
             android:id="@+id/student_row_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Student_Id"
+            android:text="@string/student_id"
             android:textSize="14sp" />
     </LinearLayout>
 

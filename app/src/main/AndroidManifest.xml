@@ -12,23 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Studentsapp">
         <activity
-            android:name=".StudentsListActivity"
-            android:exported="true"
-            android:label="Students List">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".AddStudentActivity"
-            android:label="New Student" />
-        <activity
-            android:name=".StudentDetailsActivity"
-            android:label="Student Details" />
-        <activity
-            android:name=".EditStudentActivity"
-            android:label="Edit Student" />
     </application>
 
 </manifest>
