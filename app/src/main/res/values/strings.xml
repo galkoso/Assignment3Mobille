@@ -1,19 +1,23 @@
 <resources>
-    <string name="app_name">students-app</string>
-    <string name="label_name">Name:</string>
+    <string name="app_name">Students App</string>
+    <string name="label_name">Name</string>
     <string name="hint_name">Enter name</string>
-    <string name="label_id">ID:</string>
+    <string name="label_id">ID</string>
     <string name="hint_id">Enter ID</string>
-    <string name="label_phone">Phone:</string>
+    <string name="label_phone">Phone</string>
     <string name="hint_phone">Enter phone</string>
-    <string name="label_address">Address:</string>
+    <string name="label_address">Address</string>
     <string name="hint_address">Enter address</string>
     <string name="label_checked">Checked</string>
+    <string name="label_birth_date">Birth Date</string>
+    <string name="label_birth_time">Birth Time</string>
     <string name="btn_cancel">CANCEL</string>
     <string name="btn_delete">DELETE</string>
     <string name="btn_save">SAVE</string>
+    <string name="btn_edit">EDIT</string>
     <string name="desc_student_image">Student Image</string>
-    <string name="desc">Student Picture</string>
-    <string name="Student_Name">Student Name</string>
-    <string name="Student_Id">Student Id</string>
+    <string name="msg_save_success">The save operation was completed successfully.</string>
+    <string name="title_success">Success</string>
+    <string name="ok">OK</string>
+    <string name="menu_add">Add</string>
 </resources>
