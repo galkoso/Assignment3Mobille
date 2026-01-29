@@ -63,8 +63,6 @@ class StudentDetailsFragment : Fragment() {
     override fun onResume() {
         super.onResume()
         view?.let { setupUI(it) }
-        
-        // If student was deleted in edit screen, we should pop back
         if (studentPos >= Model.data.size) {
             findNavController().navigateUp()
         }

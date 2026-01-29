@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Students App</string>
-    <string name="label_name">Name</string>
+    <string name="student_name">Name</string>
     <string name="hint_name">Enter name</string>
-    <string name="label_id">ID</string>
+    <string name="student_id">ID</string>
     <string name="hint_id">Enter ID</string>
     <string name="label_phone">Phone</string>
     <string name="hint_phone">Enter phone</string>
