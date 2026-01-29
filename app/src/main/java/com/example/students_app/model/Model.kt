@@ -5,7 +5,17 @@ object Model {
 
     init {
         for (i in 0..20) {
-            data.add(Student("Student $i", "$i", "050123456$i", "Address $i", false))
+            data.add(
+                Student(
+                    name = "Student $i",
+                    id = "$i",
+                    phone = "050123456$i",
+                    address = "Address $i",
+                    isChecked = false,
+                    birthDate = "26/07/2004",
+                    birthTime = "10:00"
+                )
+            )
         }
     }
 }
