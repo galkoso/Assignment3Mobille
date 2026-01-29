@@ -10,7 +10,7 @@
         android:id="@+id/student_row_image"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@android:drawable/ic_menu_gallery"
+        android:src="@drawable/avatar"
         android:scaleType="centerCrop"
         android:contentDescription="@string/desc_student_image" />
 
